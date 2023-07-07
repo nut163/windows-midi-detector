@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore log files
+logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dist/
+dist/
+
+# Ignore .env files
+*.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/

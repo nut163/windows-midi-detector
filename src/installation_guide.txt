@@ -1,0 +1,33 @@
+Installation Guide
+
+1. Clone the GitHub repository to your local machine using the following command in your terminal:
+
+   ```
+   git clone <repository_url>
+   ```
+
+2. Navigate to the cloned repository:
+
+   ```
+   cd <repository_name>
+   ```
+
+3. Install the required Python packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Run the setup file to install the application:
+
+   ```
+   python setup.py install
+   ```
+
+5. To start the application, run the main.py file:
+
+   ```
+   python src/main.py
+   ```
+
+Note: Make sure you have a MIDI controller connected to your machine and it's recognized by the system. The application will start logging MIDI events in the "logs/midi_logs.txt" file and display the MIDI events in the GUI.
